@@ -43,15 +43,15 @@ public class SecondFragment extends Fragment implements FragmentAdapter.OnClick 
     private ArrayList<Model> CreateList() {
         list = new ArrayList<>();
         list.add(new Model(1, "London", "xcho", "3:10" ));
-        list.add(new Model(2, "London", "xcho", "3:10" ));
-        list.add(new Model(3, "London", "xcho", "3:10" ));
-        list.add(new Model(4, "London", "xcho", "3:10" ));
-        list.add(new Model(5, "London", "xcho", "3:10" ));
-        list.add(new Model(6, "London", "xcho", "3:10" ));
-        list.add(new Model(7, "London", "xcho", "3:10" ));
-        list.add(new Model(8, "London", "xcho", "3:10" ));
-        list.add(new Model(9, "London", "xcho", "3:10" ));
-        list.add(new Model(10, "London", "xcho", "3:10" ));
+        list.add(new Model(2, "Патрон", "MiyaGi", "2:44" ));
+        list.add(new Model(3, "Аллея", "Jony", "3:21" ));
+        list.add(new Model(4, "In love", "MiyaGi", "4:09" ));
+        list.add(new Model(5, "Romprasso", "Ignis", "3:18" ));
+        list.add(new Model(6, "Lonely", "Plazma", "4:10" ));
+        list.add(new Model(7, "Mask Off", "Future", "2:13" ));
+        list.add(new Model(8, "Моряк", "Feduk", "3:11" ));
+        list.add(new Model(9, "Домофон", "Terry", "4:19" ));
+        list.add(new Model(10, "Твои глаза", "Loboda", "3:45" ));
         return list;
     }
 
